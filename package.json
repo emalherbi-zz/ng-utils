@@ -1,0 +1,16 @@
+{
+  "name": "ng-utils",
+  "version": "1.0.0",
+  "description": "Utils",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx tsc",
+    "schemas": "http-server ./schemas",
+    "xsd": "yarn cxsd http://127.0.0.1:8080/leiauteNFe_v4.00.xsd"
+  },
+  "devDependencies": {
+    "cxsd": "^0.1.1",
+    "http-server": "^0.12.3",
+    "typescript": "^4.3.4"
+  }
+}
